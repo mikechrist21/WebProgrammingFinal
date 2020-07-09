@@ -1,0 +1,120 @@
+body{
+	font-family: "Calibri";
+}
+
+#header{
+	background-color: #FFF1CD;
+	font-size: 30px;
+	font-weight: bold;
+	height: 80px;
+}
+
+#logo{
+	float: left;
+}
+
+#logo img{
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 2%;
+}
+
+#title{
+	margin-left: 1%;
+	margin-right: 2%;
+	margin-top: 20px;
+	float: left;
+}
+
+#btnLogout,#btnProfile, #btnHome{
+	background-color: #FFF1CD;
+	float: right;
+	outline: none;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 2%;
+	padding-right: 2%; 
+	height: 80px;
+}
+
+#btnLogout:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#btnProfile:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#btnHome:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#profileName{
+	margin-left: 1%;
+	margin-right: 2%;
+	margin-top: 20px;
+	float: right;
+}
+
+.content{
+	margin: 5%;
+}
+
+#formContainer{
+	margin-top: 4%;
+	margin-left: 30%;
+	width: 40%;
+	border: 1px solid black;
+	border-radius: 6px;
+}
+
+#formTitle{
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+.formRow{
+	margin-top: 4%;
+	margin-bottom: 4%;
+	font-size: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 40px;
+}
+
+.formLabel{
+	float: left;
+	width: 35%;
+	padding-top: 5px;
+}
+
+.formFill{
+	float: left;
+	width: 65%;
+	height: 40px;
+}
+
+.formFill input{
+	height: 30px;
+	width: 90%;
+}
+
+#btnUpdate{
+	margin-left: 30%;
+	margin-right: 5%;
+	height: 40px;
+	width: 15%;
+}
+
+#btnCancel{
+	margin-left: 5%;
+	height: 40px;
+	width: 15%;
+}

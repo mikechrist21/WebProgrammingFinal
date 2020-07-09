@@ -1,0 +1,120 @@
+body{
+	font-family: "Calibri";
+}
+
+#header{
+	background-color: #FFF1CD;
+	font-size: 30px;
+	font-weight: bold;
+	height: 80px;
+}
+
+#logo{
+	float: left;
+}
+
+#logo img{
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 2%;
+}
+
+#title{
+	margin-left: 1%;
+	margin-right: 2%;
+	margin-top: 20px;
+	float: left;
+}
+
+#btnLogin,#btnRegister,#btnLogout,#btnProfile, #btnUser{
+	background-color: #FFF1CD;
+	float: right;
+	outline: none;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 2%;
+	padding-right: 2%; 
+	height: 80px;
+}
+
+#btnLogin:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#btnRegister:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#btnLogout:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#btnProfile:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#btnUser:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#profileName{
+	margin-left: 1%;
+	margin-right: 2%;
+	margin-top: 20px;
+	float: right;
+}
+
+.content{
+	float: left;
+	margin: 5%;
+
+}
+
+#contentHeaderTitle{
+	font-size: 60px;
+	font-weight: bold;
+	margin-bottom: 3%;
+}
+#contentHeaderCaption{
+	font-size: 30px;
+	margin-bottom: 3%;
+}
+
+hr{
+	border: 1px solid black;
+}
+
+.contentContainer{
+	float: left;
+	border: 2px solid black;
+	border-radius: 6px;
+	width: 40%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+
+.contentTitle{
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.contentDesc{
+	margin: 2%;
+	font-size: 24px;
+}
+
+.btnContent{
+	margin: 2%;
+	width: 20%;
+	height: 40px;
+	font-size: 18px;
+}

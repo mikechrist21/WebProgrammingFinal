@@ -1,0 +1,109 @@
+body{
+	font-family: "Calibri";
+}
+
+#header{
+	background-color: #FFF1CD;
+	font-size: 30px;
+	font-weight: bold;
+	height: 80px;
+}
+
+#logo{
+	float: left;
+}
+
+#logo img{
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 2%;
+}
+
+#title{
+	margin-left: 1%;
+	margin-right: 2%;
+	margin-top: 20px;
+	float: left;
+}
+
+#btnLogout,#btnProfile, #btnHome{
+	background-color: #FFF1CD;
+	float: right;
+	outline: none;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 2%;
+	padding-right: 2%; 
+	height: 80px;
+}
+
+#btnLogout:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#btnProfile:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#btnHome:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+
+.content{
+	margin: 5%;
+}
+
+#userTable{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#tableHeaderRow{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tableRow{
+	font-size: 24px;
+}
+
+.colNumber{
+	float: left;
+	width: 10%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.colName{
+	float: left;
+	width: 25%;
+	border: 1px solid black;
+	padding-left: 1%;
+}
+
+.colEmail{
+	float: left;
+	width: 40%;
+	border: 1px solid black;
+	padding-left: 1%;
+}
+
+.colRole{
+	float: left;
+	width: 18%;
+	border: 1px solid black;
+	padding-left: 1%;
+}
+
+.btnContent{
+	margin: 2%;
+	width: 20%;
+	height: 40px;
+	font-size: 18px;
+}

@@ -1,0 +1,142 @@
+body{
+	font-family: "Calibri";
+}
+
+#header{
+	background-color: #FFF1CD;
+	font-size: 30px;
+	font-weight: bold;
+	height: 80px;
+}
+
+#logo{
+	float: left;
+}
+
+#logo img{
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 2%;
+}
+
+#title{
+	margin-left: 1%;
+	margin-right: 2%;
+	margin-top: 20px;
+	float: left;
+}
+
+#btnLogout,#btnProfile, #btnHome{
+	background-color: #FFF1CD;
+	float: right;
+	outline: none;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 2%;
+	padding-right: 2%; 
+	height: 80px;
+}
+
+#btnLogout:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#btnProfile:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+#btnHome:hover{
+	background-color: #FFF1AA;
+	cursor: pointer;
+}
+
+
+.content{
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+
+#contentHeader{
+	height: 6%;
+	width: 60%;
+	display: inline-block;
+}
+
+#contentHeaderTitle{
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 3%;
+	margin-left: 5%;
+	float: left;
+	width: 35%;
+}
+
+#btnInsertBook{
+	float: left;
+	height: 40px;
+	font-size: 20px;
+	margin-top: 1%;
+}
+
+#bookTable{
+	width: 80%;
+	margin-left: 5%;
+}
+
+#tableHeaderRow{
+	display: grid; 
+  	grid-template-columns: 5% 30% 25% 8% 12% 20%; 
+  	margin-left: 5%;
+  	font-weight: bold;
+}
+
+#tableHeaderRow div{
+	border: 1px solid black;
+	font-size: 24px;
+	text-align: center;
+	padding: 2%;
+}
+
+.grid_row{ 
+	display: grid; 
+	grid-template-columns: 5% 30% 25% 8% 12% 20%; 
+	margin-left: 5%;
+}
+
+.grid_row div{
+	border: 1px solid black;
+	padding: 2%;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+.btnUpdate, .btnDelete, .btnBorrow, .btnBorrowDisabled{
+	margin: 2%;
+	width: 40%;
+	height: 30px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.btnUpdate{
+	background-color: #0F3AF5
+}
+
+.btnDelete{
+	background-color: #FA0E1F;
+}
+
+.btnBorrow{
+	background-color: lightgreen;
+}
+
+.btnBorrowDisabled{
+	background-color: grey;
+}
